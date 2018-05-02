@@ -6,5 +6,6 @@ namespace StateAndBehavior
 {
     public interface IItem
     {
+        ItemKey Key { get; }
     }
 }
